@@ -269,9 +269,9 @@ Changed a lot in this theme(https://chenxjgit.github.io/)
 
 
 <section id="services">
-    <div class="container article-list">
+    <div class="container article_list">
         <div class="row">
-            <div class="col-md-2 category_index">
+            <div class="col-md-2 article_index">
                 <div class="row">
                     <h3>标签</h3>
                     
@@ -285,13 +285,11 @@ Changed a lot in this theme(https://chenxjgit.github.io/)
                     
                     <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
                         
-                        <h4 class="title">
-                            <a href="/2016/10/20/hello-world/">Hello World</a>
-                        </h4>
+                        <h4 class="title"><a href="/2016/10/20/hello-world/">Hello World</a></h4>
                         
                         <p>
-                            <time datetime="2016-10-20T06:01:29.000Z">
-                                <a href="/2016/10/20/hello-world/">2016-10-20</a>
+                            <time datetime="2016-10-20T06:01:29.000Z"><a style="color: #008e59"
+                                                                                        href="/2016/10/20/hello-world/">2016-10-20</a>
                             </time>
                         </p>
                     </div>
@@ -309,12 +307,13 @@ Changed a lot in this theme(https://chenxjgit.github.io/)
         </div>
     </div>
 </section>
+
 <script>
     $(function () {
-        $(".article-list").css('min-height', $(window).height() - $("footer").height() - $("#statement").height() - $("#navigation").height() - 50);
-        $(".archive-list-count").addClass("badge");
+        $(".article_list").css('min-height', $(window).height() - $("footer").height() - $("#statement").height() - $("#navigation").height() - 50);
         $(".category-list-count").addClass("badge");
         $(".tag-list-count").addClass("badge");
+        $(".archive-list-count").addClass("badge");
     });
 </script>
 <!-- ============================ Footer =========================== -->
@@ -357,7 +356,7 @@ Changed a lot in this theme(https://chenxjgit.github.io/)
                                 class="icon-Popular_Instagram"></i></a></li>
                 
                 
-                <li><a href="https://google.com/" title="Google-Plus" target="_blank"><i
+                <li><a href="https://google.com/" title="Google" target="_blank"><i
                                 class="icon-google-plus"></i></a></li>
                 
             </ul>

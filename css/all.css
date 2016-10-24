@@ -3735,6 +3735,32 @@ button.send {
 }
 
 /* *******************************************************
+* article list
+******************************************************* */
+.article_index .category-list-link,
+.article_index .tag-list-link,
+.article_index .archive-list-link {
+    color: #008e59;
+    margin-right: 10px;
+}
+
+.article_index .category-list-item a:focus,
+.article_index .tag-list-item a:focus,
+.article_index .archive-list-item a:focus,
+.article_index .category-list-item a:hover,
+.article_index .tag-list-item a:hover,
+.article_index .archive-list-item a:hover,
+.article_index .category-list-item a:active,
+.article_index .tag-list-item a:active,
+.article_index .archive-list-item a:active {
+    color: #333333;
+}
+
+.article_list p > a:link {
+    color: #008e59;
+}
+
+/* *******************************************************
 * Global footer, (all pages)
 ******************************************************* */
 footer {
